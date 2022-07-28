@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+* {
+  box-sizing: border-box;
+  font-family: Nunito, sans-serif;
+}
+body {
+  background: rgb(247, 52, 43);
+  background: linear-gradient(
+    145deg,
+    rgba(247, 52, 43, 1) 4%,
+    rgba(143, 51, 208, 1) 89%
+  );
+  background-repeat: no-repeat;
+  height: 100%;
+  margin: 0;
+  background-attachment: fixed;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  height: 700px;
+}
+.box0 {
+  background-color: rgb(255, 192, 203, 0.6);
+  border: none;
+  border-radius: 15px 0 0 15px;
+  width: 600px;
+  margin: 0 auto;
+  float: left;
+  text-align: center;
+  height: 700px;
+  transition: 0.75s;
+}
+.box1 {
+  background-color: rgb(255, 192, 203, 0.6);
+  border: none;
+  border-radius: 0 15px 15px 0;
+  width: 600px;
+  margin: 0 auto;
+  float: right;
+  text-align: center;
+  height: 700px;
+  transition: 0.75s;
+}
+.player1 {
+  font-size: 48px;
+  height: 48px;
+}
+.player2 {
+  font-size: 48px;
+  height: 48px;
+}
+.bigpink0 {
+  font-size: 88px;
+  color: #e6125c;
+  height: 88px;
+}
+.bigpink1 {
+  font-size: 88px;
+  color: #e6125c;
+  height: 88px;
+}
+.tinybox1 {
+  width: 250px;
+  height: 150px;
+  background-color: #e6125c;
+  margin: 0 auto;
+  border-radius: 15px;
+  color: white;
+  position: relative;
+  top: 60px;
+}
+.tinybox2 {
+  width: 250px;
+  height: 150px;
+  background-color: #e6125c;
+  margin: 0 auto;
+  border-radius: 15px;
+  color: white;
+  position: relative;
+  top: 60px;
+}
+.zero1 {
+  font-size: 3rem;
+  position: relative;
+  bottom: 15px;
+}
+.zero2 {
+  font-size: 3rem;
+  position: relative;
+  bottom: 15px;
+}
+.current {
+  position: relative;
+  top: 20px;
+  font-size: 18px;
+}
+.newgame {
+  height: 45px;
+  width: 200px;
+  border-radius: 30px;
+  border: none;
+  position: relative;
+  left: 425px;
+  top: 100px;
+  opacity: 90%;
+}
+.rolldice {
+  height: 45px;
+  width: 200px;
+  border-radius: 30px;
+  border: none;
+  opacity: 90%;
+  position: relative;
+  top: 500px;
+  left: 220px;
+}
+.hold {
+  position: relative;
+  top: 600px;
+  left: 30px;
+  height: 45px;
+  width: 170px;
+  border-radius: 30px;
+  border: none;
+  opacity: 90%;
+}
+#dice1 {
+  width: 70px;
+  height: 70px;
+  position: relative;
+  top: 300px;
+  left: 565px;
+  border-radius: 10px;
+}
+.active {
+  background-color: rgb(255, 192, 203, 1);
+}
+.playerwinner {
+  background-color: rgb(255, 215, 0);
+}
+.hidden {
+  visibility: hidden;
+}
